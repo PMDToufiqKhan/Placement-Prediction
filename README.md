@@ -5,7 +5,7 @@ Predicts job placement using HSC and degree percentages with a Perceptron model.
 
 ## Files
 - **PlaceMntPred.ipynb**: Data prep, training, visualization, and model save.
-- **app.py**: Loads model for predictions (example script included).
+- **Model.pkl**: Saved model for deployment.
 
 ## Requirements
 - Python 3.x
@@ -13,7 +13,7 @@ Predicts job placement using HSC and degree percentages with a Perceptron model.
 
 ## Usage
 1. Run notebook to train and save `Model.pkl`.
-2. Use `app.py` for predictions:
+2. Load model for predictions:
    ```python
    import pickle
    import numpy as np
